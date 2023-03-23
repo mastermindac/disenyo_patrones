@@ -4,6 +4,9 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        Builder/constructorlaberinto.cpp \
+        Builder/constructorlaberintoestandar.cpp \
+        Builder/juegodellaberintobuilder.cpp \
         Laberinto/habitacion.cpp \
         Laberinto/juegodellaberinto.cpp \
         Laberinto/laberinto.cpp \
@@ -12,6 +15,9 @@ SOURCES += \
         Laberinto/puerta.cpp \
         main.cpp
 HEADERS += \
+        Builder/constructorlaberinto.h \
+        Builder/constructorlaberintoestandar.h \
+        Builder/juegodellaberintobuilder.h \
         Laberinto/habitacion.h \
         Laberinto/juegodellaberinto.h \
         Laberinto/laberinto.h \

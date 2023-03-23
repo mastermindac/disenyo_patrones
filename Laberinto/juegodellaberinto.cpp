@@ -8,6 +8,7 @@
 
 JuegoDelLaberinto::JuegoDelLaberinto()
 {
+    std::cout << "--------------------------\n";
     std::cout << "CREANDO UN NUEVO LABERINTO\n";
     std::cout << "--------------------------\n";
 

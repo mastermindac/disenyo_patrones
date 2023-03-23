@@ -8,3 +8,7 @@ void Laberinto::AnyadirHabitacion (Habitacion* habitacion){
     this->_habitaciones[this->_numHabitaciones]=habitacion;
     this->_numHabitaciones++;
 }
+
+Habitacion* Laberinto::NumeroDeHabitacion(int numHabitacion){
+    return this->_habitaciones[this->_numHabitaciones];
+}
