@@ -7,6 +7,9 @@ SOURCES += \
         Builder/constructorlaberinto.cpp \
         Builder/constructorlaberintoestandar.cpp \
         Builder/juegodellaberintobuilder.cpp \
+        FactoryM/creadorlaberinto.cpp \
+        FactoryM/creadorlaberintoconbombas.cpp \
+        FactoryM/juegodellaberintofactorym.cpp \
         Laberinto/habitacion.cpp \
         Laberinto/juegodellaberinto.cpp \
         Laberinto/laberinto.cpp \
@@ -18,6 +21,9 @@ HEADERS += \
         Builder/constructorlaberinto.h \
         Builder/constructorlaberintoestandar.h \
         Builder/juegodellaberintobuilder.h \
+        FactoryM/creadorlaberinto.h \
+        FactoryM/creadorlaberintoconbombas.h \
+        FactoryM/juegodellaberintofactorym.h \
         Laberinto/habitacion.h \
         Laberinto/juegodellaberinto.h \
         Laberinto/laberinto.h \

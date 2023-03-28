@@ -13,4 +13,7 @@ int main()
     //Creación del laberinto mediante un builder
     JuegoDelLaberintoBuilder *mapaBuilder=new JuegoDelLaberintoBuilder();
 
+    //Creación del laberinto mediante un FactoryM
+    JuegoDelLaberintoBuilder *mapaFactoryM=new JuegoDelLaberintoBuilder();
+
 }
