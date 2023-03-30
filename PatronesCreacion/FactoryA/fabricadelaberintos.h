@@ -2,9 +2,9 @@
 #define FABRICADELABERINTOS_H
 
 
-#include "Laberinto/laberinto.h"
-#include "Laberinto/pared.h"
-#include "Laberinto/puerta.h"
+#include "PatronesCreacion/Laberinto/laberinto.h"
+#include "PatronesCreacion/Laberinto/pared.h"
+#include "PatronesCreacion/Laberinto/puerta.h"
 class FabricaDeLaberintos
 {
 public:

@@ -2,7 +2,7 @@
 #define CREADORLABERINTO_H
 
 
-#include "Laberinto/laberinto.h"
+#include "PatronesCreacion/Laberinto/laberinto.h"
 class CreadorLaberinto
 {
 public:

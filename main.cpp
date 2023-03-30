@@ -1,8 +1,8 @@
-#include "Builder/juegodellaberintobuilder.h"
-#include "FactoryA/fabricadelaberintosencantados.h"
-#include "FactoryA/juegodellaberintofactorya.h"
-#include "Laberinto/juegodellaberinto.h"
-#include "SingleTon/fabricadelaberintosst.h"
+#include "PatronesCreacion/Builder/juegodellaberintobuilder.h"
+#include "PatronesCreacion/FactoryA/fabricadelaberintosencantados.h"
+#include "PatronesCreacion/FactoryA/juegodellaberintofactorya.h"
+#include "PatronesCreacion/Laberinto/juegodellaberinto.h"
+#include "PatronesCreacion/SingleTon/fabricadelaberintosst.h"
 #include <iostream>
 
 

@@ -2,7 +2,7 @@
 #define HABITACIONENCANTADA_H
 
 
-#include "Laberinto/habitacion.h"
+#include "PatronesCreacion/Laberinto/habitacion.h"
 
 class HabitacionEncantada : public Habitacion
 {

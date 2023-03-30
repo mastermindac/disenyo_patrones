@@ -1,7 +1,7 @@
 #ifndef CONSTRUCTORLABERINTO_H
 #define CONSTRUCTORLABERINTO_H
 
-#include "Laberinto/laberinto.h"
+#include "PatronesCreacion/Laberinto/laberinto.h"
 
 class ConstructorLaberinto
 {

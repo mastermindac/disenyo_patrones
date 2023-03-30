@@ -2,8 +2,8 @@
 #define JUEGODELLABERINTOFACTORYA_H
 
 
-#include "FactoryA/fabricadelaberintos.h"
-#include "Laberinto/laberinto.h"
+#include "PatronesCreacion/FactoryA/fabricadelaberintos.h"
+#include "PatronesCreacion/Laberinto/laberinto.h"
 class JuegoDelLaberintoFactoryA
 {
 public:
