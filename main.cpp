@@ -3,6 +3,8 @@
 #include "PatronesCreacion/FactoryA/juegodellaberintofactorya.h"
 #include "PatronesCreacion/Laberinto/juegodellaberinto.h"
 #include "PatronesCreacion/SingleTon/fabricadelaberintosst.h"
+#include "PatronesEstructurales/Compuesto/componentecompuesto.h"
+#include "PatronesEstructurales/Compuesto/punto.h"
 #include "PatronesEstructurales/Decorador/componentetexto.h"
 #include "PatronesEstructurales/Decorador/decoradorborde.h"
 #include <iostream>
@@ -40,6 +42,17 @@ int main()
         cTexto->Dibujar();
         DecoradorBorde *dBorde=new DecoradorBorde(cTexto,1);
         dBorde->Dibujar();
+
+
+        //Usamos el patron Composite
+        Punto *p1= new Punto("p1",0,10);
+        p1->Dibujar();
+        Punto *p2= new Punto("p2",1,11);
+        Punto *p3= new Punto("p3",3,14);
+        ComponenteCompuesto *c1=new ComponenteCompuesto("comp1");
+        c1->anyadir(p2);
+        c1->anyadir(p3);
+        c1->Dibujar();
 
     }
 

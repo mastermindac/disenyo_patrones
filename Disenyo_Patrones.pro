@@ -21,6 +21,9 @@ SOURCES += \
         PatronesCreacion/Laberinto/pared.cpp \
         PatronesCreacion/Laberinto/puerta.cpp \
         PatronesCreacion/SingleTon/fabricadelaberintosst.cpp \
+        PatronesEstructurales/Compuesto/componentecompuesto.cpp \
+        PatronesEstructurales/Compuesto/componentevisualc.cpp \
+        PatronesEstructurales/Compuesto/punto.cpp \
         PatronesEstructurales/Decorador/componentetexto.cpp \
         PatronesEstructurales/Decorador/componentevisual.cpp \
         PatronesEstructurales/Decorador/decorador.cpp \
@@ -43,6 +46,9 @@ HEADERS += \
         PatronesCreacion/Laberinto/lugardelmapa.h \
         PatronesCreacion/Laberinto/pared.h \
         PatronesCreacion/Laberinto/puerta.h \
+        PatronesEstructurales/Compuesto/componentecompuesto.h \
+        PatronesEstructurales/Compuesto/componentevisualc.h \
+        PatronesEstructurales/Compuesto/punto.h \
         PatronesEstructurales/Decorador/componentetexto.h \
         PatronesEstructurales/Decorador/componentevisual.h \
         PatronesEstructurales/Decorador/decorador.h \
