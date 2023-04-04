@@ -1,7 +1,7 @@
 #include "juegodellaberintofactorya.h"
-#include "Laberinto/habitacion.h"
-#include "Laberinto/laberinto.h"
-#include "Laberinto/puerta.h"
+#include "PatronesCreacion/Laberinto/habitacion.h"
+#include "PatronesCreacion/Laberinto/laberinto.h"
+#include "PatronesCreacion/Laberinto/puerta.h"
 #include <iostream>
 
 JuegoDelLaberintoFactoryA::JuegoDelLaberintoFactoryA()

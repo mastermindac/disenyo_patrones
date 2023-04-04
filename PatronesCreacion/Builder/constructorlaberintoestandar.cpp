@@ -1,5 +1,5 @@
 #include "constructorlaberintoestandar.h"
-#include "Laberinto/puerta.h"
+#include "PatronesCreacion/Laberinto/puerta.h"
 
 ConstructorLaberintoEstandar::ConstructorLaberintoEstandar()
 {

@@ -1,5 +1,5 @@
 #include "fabricadelaberintosencantados.h"
-#include "FactoryA/habitacionencantada.h"
+#include "PatronesCreacion/FactoryA/habitacionencantada.h"
 
 FabricaDeLaberintosEncantados::FabricaDeLaberintosEncantados()
 {
