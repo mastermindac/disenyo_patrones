@@ -3,6 +3,8 @@
 #include "PatronesCreacion/FactoryA/juegodellaberintofactorya.h"
 #include "PatronesCreacion/Laberinto/juegodellaberinto.h"
 #include "PatronesCreacion/SingleTon/fabricadelaberintosst.h"
+#include "PatronesEstructurales/Adaptador/forma.h"
+#include "PatronesEstructurales/Adaptador/formatexto.h"
 #include "PatronesEstructurales/Compuesto/componentecompuesto.h"
 #include "PatronesEstructurales/Compuesto/punto.h"
 #include "PatronesEstructurales/Decorador/componentetexto.h"
@@ -45,6 +47,7 @@ int main()
 
 
         //Usamos el patron Composite
+        std:cout << "--------------- PATRON COMPOSITE ---------------";
         Punto *p1= new Punto("p1",0,10);
         p1->Dibujar();
         Punto *p2= new Punto("p2",1,11);
@@ -54,6 +57,13 @@ int main()
         c1->anyadir(p3);
         c1->Dibujar();
 
+        //Ejemplo sobre el patron Adaptador
+        std::cout << "--------------- PATRON ADAPTADOR ---------------";
+        //Forma *forma=new Forma();
+        //forma->CajaLimitrofe(p1,p2);
+
+        FormaTexto *fTexto=new FormaTexto(1,0,5,5);
+        fTexto->CajaLimitrofe(p1,p2);
     }
 
 
