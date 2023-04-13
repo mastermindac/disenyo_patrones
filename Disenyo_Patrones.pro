@@ -25,6 +25,9 @@ SOURCES += \
         PatronesEstructurales/Adaptador/formatexto.cpp \
         PatronesEstructurales/Adaptador/manipulador.cpp \
         PatronesEstructurales/Adaptador/vistatexto.cpp \
+        PatronesEstructurales/Bridge/display.cpp \
+        PatronesEstructurales/Bridge/displayx.cpp \
+        PatronesEstructurales/Bridge/ventanab.cpp \
         PatronesEstructurales/Compuesto/componentecompuesto.cpp \
         PatronesEstructurales/Compuesto/componentevisualc.cpp \
         PatronesEstructurales/Compuesto/punto.cpp \
@@ -54,6 +57,9 @@ HEADERS += \
         PatronesEstructurales/Adaptador/formatexto.h \
         PatronesEstructurales/Adaptador/manipulador.h \
         PatronesEstructurales/Adaptador/vistatexto.h \
+        PatronesEstructurales/Bridge/display.h \
+        PatronesEstructurales/Bridge/displayx.h \
+        PatronesEstructurales/Bridge/ventanab.h \
         PatronesEstructurales/Compuesto/componentecompuesto.h \
         PatronesEstructurales/Compuesto/componentevisualc.h \
         PatronesEstructurales/Compuesto/punto.h \

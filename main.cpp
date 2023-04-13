@@ -5,6 +5,8 @@
 #include "PatronesCreacion/SingleTon/fabricadelaberintosst.h"
 #include "PatronesEstructurales/Adaptador/forma.h"
 #include "PatronesEstructurales/Adaptador/formatexto.h"
+#include "PatronesEstructurales/Bridge/displayx.h"
+#include "PatronesEstructurales/Bridge/ventanab.h"
 #include "PatronesEstructurales/Compuesto/componentecompuesto.h"
 #include "PatronesEstructurales/Compuesto/punto.h"
 #include "PatronesEstructurales/Decorador/componentetexto.h"
@@ -64,7 +66,12 @@ int main()
 
         FormaTexto *fTexto=new FormaTexto(1,0,5,5);
         fTexto->CajaLimitrofe(p1,p2);
-    }
+
+        //Usamos el patron Display
+        DisplayX *d1X=new DisplayX();
+        VentanaB *vB=new VentanaB(d1X);
+        vB->DibujarContenido();
+//    }
 
 
 }
