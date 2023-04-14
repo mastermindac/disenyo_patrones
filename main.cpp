@@ -1,3 +1,4 @@
+#include "PatronesComportamiento/Estado/conexiontcp.h"
 #include "PatronesCreacion/Builder/juegodellaberintobuilder.h"
 #include "PatronesCreacion/FactoryA/fabricadelaberintosencantados.h"
 #include "PatronesCreacion/FactoryA/juegodellaberintofactorya.h"
@@ -18,7 +19,7 @@ using namespace std;
 
 int main()
 {
-    int catalogoPatronesActivado=1; //0=Creacion, 1=Estructural, 2=Comportamiento
+    int catalogoPatronesActivado=2; //0=Creacion, 1=Estructural, 2=Comportamiento
 
     //P. Creacion
     if(catalogoPatronesActivado==0){
@@ -49,7 +50,7 @@ int main()
 
 
         //Usamos el patron Composite
-        std:cout << "--------------- PATRON COMPOSITE ---------------";
+        cout << "--------------- PATRON COMPOSITE ---------------";
         Punto *p1= new Punto("p1",0,10);
         p1->Dibujar();
         Punto *p2= new Punto("p2",1,11);
@@ -71,7 +72,12 @@ int main()
         DisplayX *d1X=new DisplayX();
         VentanaB *vB=new VentanaB(d1X);
         vB->DibujarContenido();
-//    }
+    }else if(catalogoPatronesActivado==2){
+    //P. Comportamiento
+        std::cout << "-------------- STATE ------------\n";
+        ConexionTCP *conn=new ConexionTCP();
+        conn->AbrirPasiva();
+    }
 
 
 }

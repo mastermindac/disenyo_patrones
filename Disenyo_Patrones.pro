@@ -4,6 +4,11 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        PatronesComportamiento/Estado/conexiontcp.cpp \
+        PatronesComportamiento/Estado/estadotcp.cpp \
+        PatronesComportamiento/Estado/tcpcerrada.cpp \
+        PatronesComportamiento/Estado/tcpescucha.cpp \
+        PatronesComportamiento/Estado/tcpestablecida.cpp \
         PatronesCreacion/Builder/constructorlaberinto.cpp \
         PatronesCreacion/Builder/constructorlaberintoestandar.cpp \
         PatronesCreacion/Builder/juegodellaberintobuilder.cpp \
@@ -37,6 +42,11 @@ SOURCES += \
         PatronesEstructurales/Decorador/decoradorborde.cpp \
         main.cpp
 HEADERS += \
+        PatronesComportamiento/Estado/conexiontcp.h \
+        PatronesComportamiento/Estado/estadotcp.h \
+        PatronesComportamiento/Estado/tcpcerrada.h \
+        PatronesComportamiento/Estado/tcpescucha.h \
+        PatronesComportamiento/Estado/tcpestablecida.h \
         PatronesCreacion/Builder/constructorlaberinto.h \
         PatronesCreacion/Builder/constructorlaberintoestandar.h \
         PatronesCreacion/Builder/juegodellaberintobuilder.h \
