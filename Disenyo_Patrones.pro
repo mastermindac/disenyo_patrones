@@ -9,6 +9,9 @@ SOURCES += \
         PatronesComportamiento/Estado/tcpcerrada.cpp \
         PatronesComportamiento/Estado/tcpescucha.cpp \
         PatronesComportamiento/Estado/tcpestablecida.cpp \
+        PatronesComportamiento/Estrategia/componedor.cpp \
+        PatronesComportamiento/Estrategia/componedorsimple.cpp \
+        PatronesComportamiento/Estrategia/composicion.cpp \
         PatronesCreacion/Builder/constructorlaberinto.cpp \
         PatronesCreacion/Builder/constructorlaberintoestandar.cpp \
         PatronesCreacion/Builder/juegodellaberintobuilder.cpp \
@@ -47,6 +50,9 @@ HEADERS += \
         PatronesComportamiento/Estado/tcpcerrada.h \
         PatronesComportamiento/Estado/tcpescucha.h \
         PatronesComportamiento/Estado/tcpestablecida.h \
+        PatronesComportamiento/Estrategia/componedor.h \
+        PatronesComportamiento/Estrategia/componedorsimple.h \
+        PatronesComportamiento/Estrategia/composicion.h \
         PatronesCreacion/Builder/constructorlaberinto.h \
         PatronesCreacion/Builder/constructorlaberintoestandar.h \
         PatronesCreacion/Builder/juegodellaberintobuilder.h \
