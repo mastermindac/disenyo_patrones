@@ -1,6 +1,8 @@
 #include "PatronesComportamiento/Estado/conexiontcp.h"
 #include "PatronesComportamiento/Estrategia/componedorsimple.h"
 #include "PatronesComportamiento/Estrategia/composicion.h"
+#include "PatronesComportamiento/Observador/reloj.h"
+#include "PatronesComportamiento/Observador/tv.h"
 #include "PatronesCreacion/Builder/juegodellaberintobuilder.h"
 #include "PatronesCreacion/FactoryA/fabricadelaberintosencantados.h"
 #include "PatronesCreacion/FactoryA/juegodellaberintofactorya.h"
@@ -82,6 +84,14 @@ int main()
         std::cout << "-------------- STRATEGY ------------\n";
         ComponedorSimple *cSimple=new ComponedorSimple();
         Composicion *composicion=new Composicion(cSimple);
+        std::cout << "-------------- OBSERVER ------------\n";
+        Reloj *reloj=new Reloj();
+        Tv *tv1=new Tv(reloj);
+        Tv *tv2=new Tv(reloj);
+        reloj->Adscribir(tv1);
+        reloj->Adscribir(tv1);
+
+        reloj->Pulso();
     }
 
 

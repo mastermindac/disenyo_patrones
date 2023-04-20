@@ -12,6 +12,10 @@ SOURCES += \
         PatronesComportamiento/Estrategia/componedor.cpp \
         PatronesComportamiento/Estrategia/componedorsimple.cpp \
         PatronesComportamiento/Estrategia/composicion.cpp \
+        PatronesComportamiento/Observador/observador.cpp \
+        PatronesComportamiento/Observador/reloj.cpp \
+        PatronesComportamiento/Observador/sujeto.cpp \
+        PatronesComportamiento/Observador/tv.cpp \
         PatronesCreacion/Builder/constructorlaberinto.cpp \
         PatronesCreacion/Builder/constructorlaberintoestandar.cpp \
         PatronesCreacion/Builder/juegodellaberintobuilder.cpp \
@@ -53,6 +57,10 @@ HEADERS += \
         PatronesComportamiento/Estrategia/componedor.h \
         PatronesComportamiento/Estrategia/componedorsimple.h \
         PatronesComportamiento/Estrategia/composicion.h \
+        PatronesComportamiento/Observador/observador.h \
+        PatronesComportamiento/Observador/reloj.h \
+        PatronesComportamiento/Observador/sujeto.h \
+        PatronesComportamiento/Observador/tv.h \
         PatronesCreacion/Builder/constructorlaberinto.h \
         PatronesCreacion/Builder/constructorlaberintoestandar.h \
         PatronesCreacion/Builder/juegodellaberintobuilder.h \
