@@ -1,3 +1,6 @@
+#include "PatronesComportamiento/CadenaResp/aplicacion.h"
+#include "PatronesComportamiento/CadenaResp/boton.h"
+#include "PatronesComportamiento/CadenaResp/dialogo.h"
 #include "PatronesComportamiento/Estado/conexiontcp.h"
 #include "PatronesComportamiento/Estrategia/componedorsimple.h"
 #include "PatronesComportamiento/Estrategia/composicion.h"
@@ -92,6 +95,12 @@ int main()
         reloj->Adscribir(tv1);
 
         reloj->Pulso();
+        std::cout << "-------------- CADENA DE RESP ------------\n";
+        Aplicacion* app=new Aplicacion(ManejadorAyuda::TEMA_APLICACION);
+        Dialogo* dialogo=new Dialogo(app,ManejadorAyuda::TEMA_IMPRESION);
+        Boton* boton=new Boton(dialogo,ManejadorAyuda::SIN_TEMA_AYUDA);
+
+        boton->ManejarAyuda();
     }
 
 

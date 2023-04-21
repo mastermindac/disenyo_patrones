@@ -4,6 +4,11 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        PatronesComportamiento/CadenaResp/aplicacion.cpp \
+        PatronesComportamiento/CadenaResp/boton.cpp \
+        PatronesComportamiento/CadenaResp/dialogo.cpp \
+        PatronesComportamiento/CadenaResp/manejadorayuda.cpp \
+        PatronesComportamiento/CadenaResp/util.cpp \
         PatronesComportamiento/Estado/conexiontcp.cpp \
         PatronesComportamiento/Estado/estadotcp.cpp \
         PatronesComportamiento/Estado/tcpcerrada.cpp \
@@ -49,6 +54,11 @@ SOURCES += \
         PatronesEstructurales/Decorador/decoradorborde.cpp \
         main.cpp
 HEADERS += \
+        PatronesComportamiento/CadenaResp/aplicacion.h \
+        PatronesComportamiento/CadenaResp/boton.h \
+        PatronesComportamiento/CadenaResp/dialogo.h \
+        PatronesComportamiento/CadenaResp/manejadorayuda.h \
+        PatronesComportamiento/CadenaResp/util.h \
         PatronesComportamiento/Estado/conexiontcp.h \
         PatronesComportamiento/Estado/estadotcp.h \
         PatronesComportamiento/Estado/tcpcerrada.h \
