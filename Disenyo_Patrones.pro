@@ -42,6 +42,10 @@ SOURCES += \
         PatronesEstructurales/Adaptador/formatexto.cpp \
         PatronesEstructurales/Adaptador/manipulador.cpp \
         PatronesEstructurales/Adaptador/vistatexto.cpp \
+        PatronesEstructurales/AdaptadorChatGPT/iuserdata.cpp \
+        PatronesEstructurales/AdaptadorChatGPT/user.cpp \
+        PatronesEstructurales/AdaptadorChatGPT/useradapter.cpp \
+        PatronesEstructurales/AdaptadorChatGPT/userapi.cpp \
         PatronesEstructurales/Bridge/display.cpp \
         PatronesEstructurales/Bridge/displayx.cpp \
         PatronesEstructurales/Bridge/ventanab.cpp \
@@ -91,6 +95,10 @@ HEADERS += \
         PatronesEstructurales/Adaptador/formatexto.h \
         PatronesEstructurales/Adaptador/manipulador.h \
         PatronesEstructurales/Adaptador/vistatexto.h \
+        PatronesEstructurales/AdaptadorChatGPT/iuserdata.h \
+        PatronesEstructurales/AdaptadorChatGPT/user.h \
+        PatronesEstructurales/AdaptadorChatGPT/useradapter.h \
+        PatronesEstructurales/AdaptadorChatGPT/userapi.h \
         PatronesEstructurales/Bridge/display.h \
         PatronesEstructurales/Bridge/displayx.h \
         PatronesEstructurales/Bridge/ventanab.h \
